@@ -5,20 +5,26 @@
       "type": "group",
       "items": [
         {
-          "name": "UvVR",
+          "name": "UVVR",
           "type": "esri-mapServer",
-          "url": "https://www.sciencebase.gov/arcgis/services/Catalog/57fe81fbe4b0824b2d148389/MapServer/",
-          "layers": "2",
-          "isEnabled": true
-        },
-        {
-          "name": "Layer 0",
-          "type": "esri-mapServer",
-          "url": "https://www.sciencebase.gov/arcgis/services/Catalog/57fe81fbe4b0824b2d148389/MapServer/",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/57fe81fbe4b0824b2d148389/MapServer",
+          "metadataUrl": "https://www.sciencebase.gov/catalog/item/57fe81fbe4b0824b2d148389",
           "layers": "0",
           "isEnabled": true,
-          "isLegendVisible":false
+          "isLegendVisible":true,
+          "description": "Recent research shows that sediment budgets of microtidal marsh complexes on the Atlantic and Pacific coasts of the United States consistently scale with areal unvegetated/vegetated marsh ratio (UVVR) despite differences in sea-level rise, tidal range, elevation, vegetation, and stressors. This highlights UVVR as a broadly applicable indicator of microtidal marsh stability. It is also relatively quicker and less labor intensive compared to quantifying integrative sediment budgets and the associated transport mechanisms that requires extended tidal-timescale observations of sediment transport. UVVR indicates the link between open-water conversion processes and sediment transport, providing consistent results across a geomorphic and climatic spectrum of microtidal marshes, hence can be an independent measure of marsh health. Potentially, tracking future changes to UVVR may allow for widespread mapping of spatially variable vulnerability across microtidal marshes worldwide",
+        },
+        {
+          "name": "Shoreline change (m/y)",
+          "type": "esri-mapServer",
+          "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog/59a427efe4b077f005673271/MapServer",
+          "metadataUrl": "https://www.sciencebase.gov/catalog/item/59a427efe4b077f005673271",
+          "layers": "0",
+          "isEnabled": true,
+          "isLegendVisible":true,
+          "description": "Monitoring shoreline change is of interest in many coastal areas because it enables quantification of land loss over time. Evolution of shoreline position is determined by the balance between erosion and accretion along the coast. In the case of salt marshes, erosion along the water boundary causes a loss of ecosystem services, such as habitat provision, carbon storage, and wave attenuation. In terms of vulnerability, higher shoreline erosion rates indicate higher vulnerability. This dataset displays shoreline change rates at the Edwin B. Forsythe National Wildlife Refuge (EBFNWR), which spans over Great Bay, Little Egg Harbor, and Barnegat Bay in New Jersey, USA. Shoreline change rates are based on Smith and Terrano (2017) analysis of digital vector shorelines acquired from historic topographic sheets, aerial photography, and/or lidar using the AMBUR package (Jackson, 2010). Linear Regression Rates (LRR) of shoreline change were averaged along the shoreline of each salt marsh unit to generate this dataset. Positive and negative values indicate accretion and erosion respectively. As part of the Hurricane Sandy Science Plan, the U.S. Geological Survey is expanding National Assessment of Coastal Change Hazards and forecast products to coastal wetlands. The intent is to provide federal, state, and local managers with tools to estimate their vulnerability and ecosystem service potential. For this purpose, the response and resilience of coastal wetlands to physical factors need to be assessed in terms of the ensuing change to their vulnerability and ecosystem services. EBFNWR was selected as a pilot study area. <br><br> References:<br>Jackson, C.W., Jr., 2010, Basic User Guide for the AMBUR package for R, version 1.0a, http://r-forge.r-project.org/projects/ambur/. <br>Smith, Kathryn E. L. and Terrano, J. F., 2017, Shoreline Change Analysis of Coastal and Estuarine Shorelines in Barnegat and Great Bays, NJ: 1839 to 2012 (ver. 1.1, December 2017): U.S. Geological Survey data release, https://doi.org/10.5066/F75X275C."
         }
+        
       ],
       "isOpen": true
     }
@@ -28,18 +34,18 @@
     "corsproxy.com"
   ],
     "initialCamera": {
-    "west": -74.2,
-    "east": -74.23,
-    "north": 39.7,
-    "south": 39.6
+    "west": -74.6,
+    "east": -74.0,
+    "north": 40.1,
+    "south": 39.3
   },
     "homeCamera": {
-    "west": -175,
-    "east": -135,
-    "north": 72,
-    "south": 55
+    "west": -74.6,
+    "east": -74.0,
+    "north": 40.1,
+    "south": 39.3
   },
-  "baseMapName": "Bing Maps Roads",
+  "baseMapName": "Dark Matter",
   "initialViewerMode": "2d",
   "services": []
 }
