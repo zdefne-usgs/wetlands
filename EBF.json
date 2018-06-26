@@ -1,0 +1,45 @@
+{
+  "catalog": [
+    {
+      "name": "Wetland layers",
+      "type": "group",
+      "items": [
+        {
+          "name": "UvVR",
+          "type": "esri-mapServer",
+          "url": "https://www.sciencebase.gov/arcgis/services/Catalog/57fe81fbe4b0824b2d148389/MapServer/",
+          "layers": "2",
+          "isEnabled": true
+        },
+        {
+          "name": "Layer 0",
+          "type": "esri-mapServer",
+          "url": "https://www.sciencebase.gov/arcgis/services/Catalog/57fe81fbe4b0824b2d148389/MapServer/",
+          "layers": "0",
+          "isEnabled": true,
+          "isLegendVisible":false
+        }
+      ],
+      "isOpen": true
+    }
+  ],
+  "corsDomains": [
+    "sciencebase.gov",
+    "corsproxy.com"
+  ],
+    "initialCamera": {
+    "west": -74.2,
+    "east": -74.23,
+    "north": 39.7,
+    "south": 39.6
+  },
+    "homeCamera": {
+    "west": -175,
+    "east": -135,
+    "north": 72,
+    "south": 55
+  },
+  "baseMapName": "Bing Maps Roads",
+  "initialViewerMode": "2d",
+  "services": []
+}
