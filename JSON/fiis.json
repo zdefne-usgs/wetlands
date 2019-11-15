@@ -23,14 +23,14 @@
           "name": "Conceptual marsh units",
           "styles": "highlight",
           "description": "Defne, Z., and Ganju, N.K., 2018, Conceptual marsh units for Fire Island National Seashore and central Great South Bay salt marsh complex, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P95U2MQ7.",
-          "layers": "CMU_JB",
+          "layers": "CMU_FIISp",
           "info": [],
           "isUserSupplied": true,
           "isPromoted": false,
           "isHidden": false,
           "forceProxy": false,
           "customProperties": {},
-          "id": "Root+Group/User-Added+Data/5cfe97cbe4b0156ea5644fce?service=wms&request=getcapabilities&version=1.3.0",
+          "id": "Root+Group/User-Added+Data/5bb77371e4b0fc368e8f364e?service=wms&request=getcapabilities&version=1.3.0",
           "shortReportSections": [],
           "isWaitingForDisclaimer": false,
           "hideSource": false,
@@ -38,7 +38,7 @@
           "isOpen": true,
           "items": [],
           "preserveOrder": false,
-          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5cfe97cbe4b0156ea5644fce?service=wms&request=getcapabilities&version=1.3.0",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5bb77371e4b0fc368e8f364e?service=wms&request=getcapabilities&version=1.3.0",
           "titleField": "title",
           "flatten": false,
           "type": "wms",
@@ -49,14 +49,14 @@
         {
           "name": "Elevation (m)",
           "description": "Defne, Z., and Ganju, N.K., 2018, Elevation of marsh units in Fire Island National Seashore and central Great South Bay salt marsh complex, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P91K4FZP.",
-          "layers": "mu_elev_JB",
+          "layers": "mu_elev_FIISp",
           "info": [],
           "isUserSupplied": true,
           "isPromoted": false,
           "isHidden": false,
           "forceProxy": false,
           "customProperties": {},
-          "id": "Root+Group/User-Added+Data/5cfe97f9e4b0156ea5644fd1?service=wms&request=getcapabilities&version=1.3.0",
+          "id": "Root+Group/User-Added+Data/5bb7833de4b0fc368e9030df?service=wms&request=getcapabilities&version=1.3.0",
           "shortReportSections": [],
           "isWaitingForDisclaimer": false,
           "hideSource": false,
@@ -64,7 +64,7 @@
           "isOpen": true,
           "items": [],
           "preserveOrder": false,
-          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5cfe97f9e4b0156ea5644fd1?service=wms&request=getcapabilities&version=1.3.0",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5bb7833de4b0fc368e9030df?service=wms&request=getcapabilities&version=1.3.0",
           "titleField": "title",
           "flatten": false,
           "type": "wms",
@@ -75,14 +75,14 @@
         {
           "name": "UVVR",
           "description": "Defne, Z., and Ganju, N.K., 2018, Unvegetated to vegetated marsh ratio in Fire Island National Seashore and central Great South Bay salt marsh complex, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9RHUSWY.",
-          "layers": "mu_UVVR_JB",
+          "layers": "mu_UVVR_FIISp",
           "info": [],
           "isUserSupplied": true,
           "isPromoted": false,
           "isHidden": false,
           "forceProxy": false,
           "customProperties": {},
-          "id": "Root+Group/User-Added+Data/5cfe981fe4b0156ea5644fd3?service=wms&request=getcapabilities&version=1.3.0",
+          "id": "Root+Group/User-Added+Data/5bb77b87e4b0fc368e8fb9f2?service=wms&request=getcapabilities&version=1.3.0",
           "shortReportSections": [],
           "isWaitingForDisclaimer": false,
           "hideSource": false,
@@ -90,7 +90,7 @@
           "isOpen": true,
           "items": [],
           "preserveOrder": false,
-          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5cfe981fe4b0156ea5644fd3?service=wms&request=getcapabilities&version=1.3.0",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5bb77b87e4b0fc368e8fb9f2?service=wms&request=getcapabilities&version=1.3.0",
           "titleField": "title",
           "flatten": false,
           "type": "wms",
@@ -101,14 +101,14 @@
         {
           "name": "Mean tidal range (m)",
           "description": "Defne, Z., and Ganju, N.K., 2018, Mean tidal range in marsh units of Fire Island National Seashore and central Great South Bay salt marsh complex, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9R0HWPR.",
-          "layers": "mu_MN_JB",
+          "layers": "mu_MN_FIISp",
           "info": [],
           "isUserSupplied": true,
           "isPromoted": false,
           "isHidden": false,
           "forceProxy": false,
           "customProperties": {},
-          "id": "Root+Group/User-Added+Data/5d0abdc7e4b0e3d311601adb?service=wms&request=getcapabilities&version=1.3.0",
+          "id": "Root+Group/User-Added+Data/5bb79be4e4b0fc368e91f56b?service=wms&request=getcapabilities&version=1.3.0",
           "shortReportSections": [],
           "isWaitingForDisclaimer": false,
           "hideSource": false,
@@ -116,7 +116,7 @@
           "isOpen": true,
           "items": [],
           "preserveOrder": false,
-          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5d0abdc7e4b0e3d311601adb?service=wms&request=getcapabilities&version=1.3.0",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5bb79be4e4b0fc368e91f56b?service=wms&request=getcapabilities&version=1.3.0",
           "titleField": "title",
           "flatten": false,
           "type": "wms",
@@ -136,14 +136,14 @@
       "type": "group",
       "parents": []
     },
-    "Root+Group/User-Added+Data/5cfe97cbe4b0156ea5644fce?service=wms&request=getcapabilities&version=1.3.0": {
+    "Root+Group/User-Added+Data/5bb77371e4b0fc368e8f364e?service=wms&request=getcapabilities&version=1.3.0": {
       "isOpen": true,
       "type": "wms-getCapabilities",
       "parents": [
         "Root+Group/User-Added+Data"
       ]
     },
-    "Root+Group/User-Added+Data/5cfe97cbe4b0156ea5644fce?service=wms&request=getcapabilities&version=1.3.0/CMU_JB": {
+    "Root+Group/User-Added+Data/5bb77371e4b0fc368e8f364e?service=wms&request=getcapabilities&version=1.3.0/CMU_FIISp": {
       "nowViewingIndex": 0,
       "isEnabled": true,
       "isShown": true,
@@ -156,17 +156,17 @@
       "type": "wms",
       "parents": [
         "Root+Group/User-Added+Data",
-        "Root+Group/User-Added+Data/5cfe97cbe4b0156ea5644fce?service=wms&request=getcapabilities&version=1.3.0"
+        "Root+Group/User-Added+Data/5bb77371e4b0fc368e8f364e?service=wms&request=getcapabilities&version=1.3.0"
       ]
     },
-    "Root+Group/User-Added+Data/5cfe97f9e4b0156ea5644fd1?service=wms&request=getcapabilities&version=1.3.0": {
+    "Root+Group/User-Added+Data/5bb7833de4b0fc368e9030df?service=wms&request=getcapabilities&version=1.3.0": {
       "isOpen": true,
       "type": "wms-getCapabilities",
       "parents": [
         "Root+Group/User-Added+Data"
       ]
     },
-    "Root+Group/User-Added+Data/5cfe97f9e4b0156ea5644fd1?service=wms&request=getcapabilities&version=1.3.0/mu_elev_JB": {
+    "Root+Group/User-Added+Data/5bb7833de4b0fc368e9030df?service=wms&request=getcapabilities&version=1.3.0/mu_elev_FIISp": {
       "nowViewingIndex": 1,
       "isEnabled": true,
       "isShown": true,
@@ -179,17 +179,17 @@
       "type": "wms",
       "parents": [
         "Root+Group/User-Added+Data",
-        "Root+Group/User-Added+Data/5cfe97f9e4b0156ea5644fd1?service=wms&request=getcapabilities&version=1.3.0"
+        "Root+Group/User-Added+Data/5bb7833de4b0fc368e9030df?service=wms&request=getcapabilities&version=1.3.0"
       ]
     },
-    "Root+Group/User-Added+Data/5cfe981fe4b0156ea5644fd3?service=wms&request=getcapabilities&version=1.3.0": {
+    "Root+Group/User-Added+Data/5bb77b87e4b0fc368e8fb9f2?service=wms&request=getcapabilities&version=1.3.0": {
       "isOpen": true,
       "type": "wms-getCapabilities",
       "parents": [
         "Root+Group/User-Added+Data"
       ]
     },
-    "Root+Group/User-Added+Data/5cfe981fe4b0156ea5644fd3?service=wms&request=getcapabilities&version=1.3.0/mu_UVVR_JB": {
+    "Root+Group/User-Added+Data/5bb77b87e4b0fc368e8fb9f2?service=wms&request=getcapabilities&version=1.3.0/mu_UVVR_FIISp": {
       "nowViewingIndex": 3,
       "isEnabled": true,
       "isShown": true,
@@ -202,17 +202,17 @@
       "type": "wms",
       "parents": [
         "Root+Group/User-Added+Data",
-        "Root+Group/User-Added+Data/5cfe981fe4b0156ea5644fd3?service=wms&request=getcapabilities&version=1.3.0"
+        "Root+Group/User-Added+Data/5bb77b87e4b0fc368e8fb9f2?service=wms&request=getcapabilities&version=1.3.0"
       ]
     },
-    "Root+Group/User-Added+Data/5d0abdc7e4b0e3d311601adb?service=wms&request=getcapabilities&version=1.3.0": {
+    "Root+Group/User-Added+Data/5bb79be4e4b0fc368e91f56b?service=wms&request=getcapabilities&version=1.3.0": {
       "isOpen": true,
       "type": "wms-getCapabilities",
       "parents": [
         "Root+Group/User-Added+Data"
       ]
     },
-    "Root+Group/User-Added+Data/5d0abdc7e4b0e3d311601adb?service=wms&request=getcapabilities&version=1.3.0/mu_MN_JB": {
+    "Root+Group/User-Added+Data/5bb79be4e4b0fc368e91f56b?service=wms&request=getcapabilities&version=1.3.0/mu_MN_FIISp": {
       "nowViewingIndex": 2,
       "isEnabled": true,
       "isShown": true,
@@ -225,7 +225,7 @@
       "type": "wms",
       "parents": [
         "Root+Group/User-Added+Data",
-        "Root+Group/User-Added+Data/5d0abdc7e4b0e3d311601adb?service=wms&request=getcapabilities&version=1.3.0"
+        "Root+Group/User-Added+Data/5bb79be4e4b0fc368e91f56b?service=wms&request=getcapabilities&version=1.3.0"
       ]
     }
   },
