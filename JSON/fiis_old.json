@@ -1,0 +1,53 @@
+{"catalog":
+[{"name":"Coastal wetlands of Fire Island National Seashore and Central Great South Bay, New York","description":"The+group+for+data+that+was+added+by+the+user+via+the+Add+Data+panel.","info":[],"isUserSupplied":true,"isPromoted":false,"isHidden":false,"forceProxy":false,"customProperties":{},"id":"Root+Group/User-Added+Data","shortReportSections":[],"isWaitingForDisclaimer":false,"hideSource":false,"nameInCatalog":"Coastal wetlands of Fire Island National Seashore and Central Great South Bay, New York","isOpen":true,"zoomOnEnable":true,"isEnabled":true,"isShown":true,
+"items":[{
+"name":"Conceptual marsh units","styles":"highlight","description":"Defne, Z., and Ganju, N.K., 2018, Conceptual marsh units for Fire Island National Seashore and central Great South Bay salt marsh complex, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P95U2MQ7.","layers":"CMU_JB","info":[],"isUserSupplied":true,"isPromoted":false,"isHidden":false,"forceProxy":false,"customProperties":{},"id":"Root+Group/User-Added+Data/5cfe97cbe4b0156ea5644fce?service=wms&request=getcapabilities&version=1.3.0","shortReportSections":[],"isWaitingForDisclaimer":false,"hideSource":false,"nameInCatalog":"Conceptual marsh units","isOpen":true,"items":[],"preserveOrder":false,"url":"https://www.sciencebase.gov/catalogMaps/mapping/ows/5cfe97cbe4b0156ea5644fce?service=wms&request=getcapabilities&version=1.3.0","titleField":"title","flatten":false,"type":"wms","parents":["Root+Group/User-Added+Data"]},{
+"name":"Elevation (m)","description":"Defne, Z., and Ganju, N.K., 2018, Elevation of marsh units in Fire Island National Seashore and central Great South Bay salt marsh complex, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P91K4FZP.","layers":"mu_elev_JB","info":[],"isUserSupplied":true,"isPromoted":false,"isHidden":false,"forceProxy":false,"customProperties":{},"id":"Root+Group/User-Added+Data/5cfe97f9e4b0156ea5644fd1?service=wms&request=getcapabilities&version=1.3.0","shortReportSections":[],"isWaitingForDisclaimer":false,"hideSource":false,"nameInCatalog":"Elevation","isOpen":true,"items":[],"preserveOrder":false,"url":"https://www.sciencebase.gov/catalogMaps/mapping/ows/5cfe97f9e4b0156ea5644fd1?service=wms&request=getcapabilities&version=1.3.0","titleField":"title","flatten":false,"type":"wms","parents":["Root+Group/User-Added+Data"]},{
+"name":"UVVR","description":"Defne, Z., and Ganju, N.K., 2018, Unvegetated to vegetated marsh ratio in Fire Island National Seashore and central Great South Bay salt marsh complex, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9RHUSWY.","layers":"mu_UVVR_JB","info":[],"isUserSupplied":true,"isPromoted":false,"isHidden":false,"forceProxy":false,"customProperties":{},"id":"Root+Group/User-Added+Data/5cfe981fe4b0156ea5644fd3?service=wms&request=getcapabilities&version=1.3.0","shortReportSections":[],"isWaitingForDisclaimer":false,"hideSource":false,"nameInCatalog":"UVVR","isOpen":true,"items":[],"preserveOrder":false,"url":"https://www.sciencebase.gov/catalogMaps/mapping/ows/5cfe981fe4b0156ea5644fd3?service=wms&request=getcapabilities&version=1.3.0","titleField":"title","flatten":false,"type":"wms","parents":["Root+Group/User-Added+Data"]},{
+"name":"Mean tidal range (m)","description":"Defne, Z., and Ganju, N.K., 2018, Mean tidal range in marsh units of Fire Island National Seashore and central Great South Bay salt marsh complex, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9R0HWPR.","layers":"mu_MN_JB","info":[],"isUserSupplied":true,"isPromoted":false,"isHidden":false,"forceProxy":false,"customProperties":{},"id":"Root+Group/User-Added+Data/5d0abdc7e4b0e3d311601adb?service=wms&request=getcapabilities&version=1.3.0","shortReportSections":[],"isWaitingForDisclaimer":false,"hideSource":false,"nameInCatalog":"Mean tidal range","isOpen":true,"items":[],"preserveOrder":false,"url":"https://www.sciencebase.gov/catalogMaps/mapping/ows/5d0abdc7e4b0e3d311601adb?service=wms&request=getcapabilities&version=1.3.0","titleField":"title","flatten":false,"type":"wms","parents":["Root+Group/User-Added+Data"]}],"preserveOrder":false,"type":"group","parents":[]
+}],
+"sharedCatalogMembers":
+{
+"Root+Group/User-Added+Data":
+{
+"isOpen":true,"type":"group","parents":[]
+}
+,"Root+Group/User-Added+Data/5cfe97cbe4b0156ea5644fce?service=wms&request=getcapabilities&version=1.3.0":
+{
+"isOpen":true,"type":"wms-getCapabilities","parents":["Root+Group/User-Added+Data"]
+}
+,"Root+Group/User-Added+Data/5cfe97cbe4b0156ea5644fce?service=wms&request=getcapabilities&version=1.3.0/CMU_JB":
+{
+"nowViewingIndex":0,"isEnabled":true,"isShown":true,"isLegendVisible":false,"useOwnClock":false,"opacity":0.2,"keepOnTop":false,"splitDirection":0,"styles":"highlight","type":"wms","parents":["Root+Group/User-Added+Data","Root+Group/User-Added+Data/5cfe97cbe4b0156ea5644fce?service=wms&request=getcapabilities&version=1.3.0"]
+}
+,"Root+Group/User-Added+Data/5cfe97f9e4b0156ea5644fd1?service=wms&request=getcapabilities&version=1.3.0":
+{
+"isOpen":true,"type":"wms-getCapabilities","parents":["Root+Group/User-Added+Data"]
+}
+,"Root+Group/User-Added+Data/5cfe97f9e4b0156ea5644fd1?service=wms&request=getcapabilities&version=1.3.0/mu_elev_JB":
+{
+"nowViewingIndex":1,"isEnabled":true,"isShown":true,"isLegendVisible":true,"useOwnClock":false,"opacity":1,"keepOnTop":false,"splitDirection":0,"styles":"","type":"wms","parents":["Root+Group/User-Added+Data","Root+Group/User-Added+Data/5cfe97f9e4b0156ea5644fd1?service=wms&request=getcapabilities&version=1.3.0"]
+}
+,"Root+Group/User-Added+Data/5cfe981fe4b0156ea5644fd3?service=wms&request=getcapabilities&version=1.3.0":
+{
+"isOpen":true,"type":"wms-getCapabilities","parents":["Root+Group/User-Added+Data"]
+}
+,"Root+Group/User-Added+Data/5cfe981fe4b0156ea5644fd3?service=wms&request=getcapabilities&version=1.3.0/mu_UVVR_JB":
+{
+"nowViewingIndex":3,"isEnabled":true,"isShown":true,"isLegendVisible":false,"useOwnClock":false,"opacity":1,"keepOnTop":false,"splitDirection":0,"styles":"","type":"wms","parents":["Root+Group/User-Added+Data","Root+Group/User-Added+Data/5cfe981fe4b0156ea5644fd3?service=wms&request=getcapabilities&version=1.3.0"]
+}
+,"Root+Group/User-Added+Data/5d0abdc7e4b0e3d311601adb?service=wms&request=getcapabilities&version=1.3.0":
+{
+"isOpen":true,"type":"wms-getCapabilities","parents":["Root+Group/User-Added+Data"]
+}
+,"Root+Group/User-Added+Data/5d0abdc7e4b0e3d311601adb?service=wms&request=getcapabilities&version=1.3.0/mu_MN_JB":
+{
+"nowViewingIndex":2,"isEnabled":true,"isShown":true,"isLegendVisible":false,"useOwnClock":false,"opacity":1,"keepOnTop":false,"splitDirection":0,"styles":"","type":"wms","parents":["Root+Group/User-Added+Data","Root+Group/User-Added+Data/5d0abdc7e4b0e3d311601adb?service=wms&request=getcapabilities&version=1.3.0"]
+}
+
+}
+,
+"initialCamera":{"west":-73.94760131835939,"south":40.483776176266744,"east":-73.40858459472658,"north":40.72800677563629},"homeCamera":{"west":-124,"south":24.000000000000004,"east":-66,"north":50},"baseMapName":"ESRI+Oceans","viewerMode":"2d","currentTime":{"dayNumber":2458733,"secondsOfDay":26099}
+}
+
+
