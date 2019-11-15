@@ -130,24 +130,6 @@
       "parents": []
     }
   ],
-  "initialCamera": {
-    "west": -70.62423706054689,
-    "south": 41.597472596288696,
-    "east": -69.54620361328126,
-    "north": 42.07682027721137
-  },
-  "homeCamera": {
-    "west": -124,
-    "east": -66,
-    "north": 50,
-    "south": 24.000000000000004
-  },
-  "baseMapName": "Bing+Maps+Aerial",
-  "viewerMode": "2d",
-  "currentTime": {
-    "dayNumber": 2458802,
-    "secondsOfDay": 20255.754
-  },
   "sharedCatalogMembers": {
     "Root+Group/User-Added+Data": {
       "isOpen": true,
@@ -165,12 +147,12 @@
       "nowViewingIndex": 3,
       "isEnabled": true,
       "isShown": true,
-      "isLegendVisible": true,
+      "isLegendVisible": false,
       "useOwnClock": false,
       "opacity": 0.6,
       "keepOnTop": false,
       "splitDirection": 0,
-      "styles": "",
+      "styles": "highlight",
       "type": "wms",
       "parents": [
         "Root+Group/User-Added+Data",
@@ -211,7 +193,7 @@
       "nowViewingIndex": 1,
       "isEnabled": true,
       "isShown": true,
-      "isLegendVisible": true,
+      "isLegendVisible": false,
       "useOwnClock": false,
       "opacity": 0.6,
       "keepOnTop": false,
@@ -234,7 +216,7 @@
       "nowViewingIndex": 0,
       "isEnabled": true,
       "isShown": true,
-      "isLegendVisible": true,
+      "isLegendVisible": false,
       "useOwnClock": false,
       "opacity": 0.6,
       "keepOnTop": false,
@@ -245,6 +227,24 @@
         "Root+Group/User-Added+Data",
         "Root+Group/User-Added+Data/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0"
       ]
-    }
+    },
+  "initialCamera": {
+    "west": -70.62423706054689,
+    "south": 41.597472596288696,
+    "east": -69.54620361328126,
+    "north": 42.07682027721137
+  },
+  "homeCamera": {
+    "west": -124,
+    "east": -66,
+    "north": 50,
+    "south": 24.000000000000004
+  },
+  "baseMapName": "Bing+Maps+Aerial",
+  "viewerMode": "2d",
+  "currentTime": {
+    "dayNumber": 2458802,
+    "secondsOfDay": 20255.754
+  }	
   }
 }
