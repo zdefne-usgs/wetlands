@@ -276,8 +276,8 @@
   "homeCamera": {
     "west": -124,
     "east": -66,
-    "north": 50
-    "south": 24,
+    "north": 50,
+    "south": 24
   },
   "baseMapName": "ESRI+Oceans",
   "viewerMode": "2d",
