@@ -16,6 +16,9 @@
       "hideSource": false,
       "nameInCatalog": "Coastal wetlands of Plum Island Estuary and Parker River, Massachusetts",
       "isOpen": true,
+      "zoomOnEnable": true,
+      "isEnabled": true,
+      "isShown": true,
       "items": [
         {
           "name": "Conceptual marsh units",
@@ -163,9 +166,6 @@
       ],
       "preserveOrder": false,
       "parents": [],
-      "zoomOnEnable": true,
-      "isEnabled": true,
-      "isShown": true
     }
   ],
   "sharedCatalogMembers": {

@@ -269,16 +269,16 @@
   },
   "initialCamera": {
     "west": -73.3496,
-    "south": 40.822,
     "east": -72.755,
-    "north": 40.5989
+    "north": 40.5989,
+    "south": 40.822
   },
   "homeCamera": {
-    "west": -124,
-    "east": -66,
-    "north": 50,
-    "south": 24
-  },
+    "west": -73.3496,
+    "east": -72.755,
+    "north": 40.5989,
+    "south": 40.822
+   },
   "baseMapName": "ESRI+Oceans",
   "viewerMode": "2d",
   "currentTime": {
