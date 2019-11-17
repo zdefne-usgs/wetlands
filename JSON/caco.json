@@ -3,7 +3,7 @@
     {
       "name": "Coastal wetlands of Cape Cod National Seashore, Massachusetts",
       "type": "group",
-      "description": "This folder includes a data layer that defines the conceptual marsh units in the salt marsh complex of Cape Cod National Seashore, and additional data layers to facilitate a multi-criteria assessment of state of the coastal salt marshes. \n\n https://www.sciencebase.gov/catalog/item/5ba4fb5de4b08583a5c9c55b",
+      "description": "This folder includes a data layer that defines the conceptual marsh units in the salt marsh complex of Cape Cod National Seashore, and additional data layers to facilitate a multi-criteria assessment of state of the coastal salt marshes.\n\n  https://www.sciencebase.gov/catalog/item/5ba4fb5de4b08583a5c9c55b",
       "info": [],
       "isUserSupplied": true,
       "isPromoted": false,
@@ -16,15 +16,12 @@
       "hideSource": false,
       "nameInCatalog": "Coastal wetlands of Cape Cod National Seashore, Massachusetts",
       "isOpen": true,
-      "zoomOnEnable": true,
-      "isEnabled": true,
-      "isShown": true,
       "items": [
         {
           "name": "Conceptual marsh units",
-          "styles": "",
           "type": "wms",
           "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5c62f0fae4b0fe48cb34c883?service=wms&request=getcapabilities&version=1.3.0",
+          "styles": "",
           "description": "Defne, Z., and Ganju, N.K., 2019, Conceptual marsh units for Cape Cod National Seashore salt marsh complex, Massachusetts: U.S. Geological Survey data release, https://doi.org/10.5066/P955K1Y2.",
           "layers": "CMU_CACOp",
           "info": [],
@@ -41,15 +38,22 @@
           "isOpen": true,
           "items": [],
           "preserveOrder": false,
-					"featureInfoTemplate" : {
-						"template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Total area (m2)</td><td>{{ATOT_M2}}</td></tr><tr><td>Selected area (m2)</td><td>{{APGN_M2}}</td></tr><tr><td>Type</td><td>{{TYP}}</td></tr><tr><td>FLG </td><td>{{FLG}}</td></tr></table>","formats": {"ATOT_M2": {"maximumFractionDigits": 0},"APGN_M2": {"maximumFractionDigits": 0}}},
-						
-
           "titleField": "title",
           "flatten": false,
           "parents": [
             "CACO"
-          ]
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Total area (m2)</td><td>{{ATOT_M2}}</td></tr><tr><td>Selected area (m2)</td><td>{{APGN_M2}}</td></tr><tr><td>Type</td><td>{{TYP}}</td></tr><tr><td>FLG </td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "ATOT_M2": {
+                "maximumFractionDigits": 0
+              },
+              "APGN_M2": {
+                "maximumFractionDigits": 0
+              }
+            }
+          }
         },
         {
           "name": "Elevation (m)",
@@ -71,13 +75,22 @@
           "isOpen": true,
           "items": [],
           "preserveOrder": false,
-					"featureInfoTemplate" : {
-						"template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Marsh unit  (m)</td><td>{{MU_ELEV}}</td></tr><tr><td>Vegetated part  (m)</td><td>{{VG_ELEV}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>","formats": {"MU_ELEV": {"maximumFractionDigits": 2},"VG_ELEV": {"maximumFractionDigits": 2}}},
           "titleField": "title",
           "flatten": false,
           "parents": [
             "CACO"
-          ]
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Marsh unit  (m)</td><td>{{MU_ELEV}}</td></tr><tr><td>Vegetated part  (m)</td><td>{{VG_ELEV}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "MU_ELEV": {
+                "maximumFractionDigits": 2
+              },
+              "VG_ELEV": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
         },
         {
           "name": "Mean tidal range (m)",
@@ -99,13 +112,19 @@
           "isOpen": true,
           "items": [],
           "preserveOrder": false,
-					"featureInfoTemplate" : {
-						"template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Mean tidal range (m)</td><td>{{MN}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>","formats": {"MN": {"maximumFractionDigits": 2}}},
           "titleField": "title",
           "flatten": false,
           "parents": [
             "CACO"
-          ]
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Mean tidal range (m)</td><td>{{MN}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "MN": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
         },
         {
           "name": "UVVR",
@@ -127,17 +146,26 @@
           "isOpen": true,
           "items": [],
           "preserveOrder": false,
-					"featureInfoTemplate" : {
-						"template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>UVVR</td><td>{{UVVR}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>","formats": {"UVVR": {"maximumFractionDigits": 2}}},
           "titleField": "title",
           "flatten": false,
           "parents": [
             "CACO"
-          ]
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>UVVR</td><td>{{UVVR}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "UVVR": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
         }
       ],
       "preserveOrder": false,
-      "parents": []
+      "parents": [],
+      "zoomOnEnable": true,
+      "isEnabled": true,
+      "isShown": true
     }
   ],
   "sharedCatalogMembers": {
@@ -238,23 +266,23 @@
         "CACO/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0"
       ]
     },
-  "initialCamera": {
-    "west": -70.62423706054689,
-    "south": 41.597472596288696,
-    "east": -69.54620361328126,
-    "north": 42.07682027721137
-  },
-  "homeCamera": {
-    "west": -124,
-    "east": -66,
-    "north": 50,
-    "south": 24.000000000000004
-  },
-  "baseMapName": "Bing+Maps+Aerial",
-  "viewerMode": "2d",
-  "currentTime": {
-    "dayNumber": 2458802,
-    "secondsOfDay": 20255.754
-  }	
+    "initialCamera": {
+      "west": -70.62423706054689,
+      "south": 41.597472596288696,
+      "east": -69.54620361328126,
+      "north": 42.07682027721137
+    },
+    "homeCamera": {
+      "west": -124,
+      "east": -66,
+      "north": 50,
+      "south": 24.000000000000004
+    },
+    "baseMapName": "Bing+Maps+Aerial",
+    "viewerMode": "2d",
+    "currentTime": {
+      "dayNumber": 2458802,
+      "secondsOfDay": 20255.754
+    }
   }
 }
