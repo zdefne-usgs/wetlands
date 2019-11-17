@@ -10,7 +10,7 @@
       "isHidden": false,
       "forceProxy": false,
       "customProperties": {},
-      "id": "CACO/User-Added+Data",
+      "id": "CACO",
       "shortReportSections": [],
       "isWaitingForDisclaimer": false,
       "hideSource": false,
@@ -33,7 +33,7 @@
           "isHidden": false,
           "forceProxy": false,
           "customProperties": {},
-          "id": "CACO/User-Added+Data/5c62f0fae4b0fe48cb34c883?service=wms&request=getcapabilities&version=1.3.0",
+          "id": "CACO/5c62f0fae4b0fe48cb34c883?service=wms&request=getcapabilities&version=1.3.0",
           "shortReportSections": [],
           "isWaitingForDisclaimer": false,
           "hideSource": false,
@@ -48,7 +48,7 @@
           "titleField": "title",
           "flatten": false,
           "parents": [
-            "CACO/User-Added+Data"
+            "CACO"
           ]
         },
         {
@@ -63,7 +63,7 @@
           "isHidden": false,
           "forceProxy": false,
           "customProperties": {},
-          "id": "CACO/User-Added+Data/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0",
+          "id": "CACO/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0",
           "shortReportSections": [],
           "isWaitingForDisclaimer": false,
           "hideSource": false,
@@ -76,7 +76,7 @@
           "titleField": "title",
           "flatten": false,
           "parents": [
-            "CACO/User-Added+Data"
+            "CACO"
           ]
         },
         {
@@ -91,7 +91,7 @@
           "isHidden": false,
           "forceProxy": false,
           "customProperties": {},
-          "id": "CACO/User-Added+Data/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0",
+          "id": "CACO/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0",
           "shortReportSections": [],
           "isWaitingForDisclaimer": false,
           "hideSource": false,
@@ -104,7 +104,7 @@
           "titleField": "title",
           "flatten": false,
           "parents": [
-            "CACO/User-Added+Data"
+            "CACO"
           ]
         },
         {
@@ -119,7 +119,7 @@
           "isHidden": false,
           "forceProxy": false,
           "customProperties": {},
-          "id": "CACO/User-Added+Data/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0",
+          "id": "CACO/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0",
           "shortReportSections": [],
           "isWaitingForDisclaimer": false,
           "hideSource": false,
@@ -132,7 +132,7 @@
           "titleField": "title",
           "flatten": false,
           "parents": [
-            "CACO/User-Added+Data"
+            "CACO"
           ]
         }
       ],
@@ -141,19 +141,19 @@
     }
   ],
   "sharedCatalogMembers": {
-    "CACO/User-Added+Data": {
+    "CACO": {
       "isOpen": true,
       "type": "group",
       "parents": []
     },
-    "CACO/User-Added+Data/5c62f0fae4b0fe48cb34c883?service=wms&request=getcapabilities&version=1.3.0": {
+    "CACO/5c62f0fae4b0fe48cb34c883?service=wms&request=getcapabilities&version=1.3.0": {
       "isOpen": true,
       "type": "wms-getCapabilities",
       "parents": [
-        "CACO/User-Added+Data"
+        "CACO"
       ]
     },
-    "CACO/User-Added+Data/5c62f0fae4b0fe48cb34c883?service=wms&request=getcapabilities&version=1.3.0/CMU_CACOp": {
+    "CACO/5c62f0fae4b0fe48cb34c883?service=wms&request=getcapabilities&version=1.3.0/CMU_CACOp": {
       "nowViewingIndex": 3,
       "isEnabled": true,
       "isShown": true,
@@ -165,18 +165,18 @@
       "styles": "",
       "type": "wms",
       "parents": [
-        "CACO/User-Added+Data",
-        "CACO/User-Added+Data/5c62f0fae4b0fe48cb34c883?service=wms&request=getcapabilities&version=1.3.0"
+        "CACO",
+        "CACO/5c62f0fae4b0fe48cb34c883?service=wms&request=getcapabilities&version=1.3.0"
       ]
     },
-    "CACO/User-Added+Data/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0": {
+    "CACO/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0": {
       "isOpen": true,
       "type": "wms-getCapabilities",
       "parents": [
-        "CACO/User-Added+Data"
+        "CACO"
       ]
     },
-    "CACO/User-Added+Data/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0/mu_elev_CACOp": {
+    "CACO/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0/mu_elev_CACOp": {
       "nowViewingIndex": 2,
       "isEnabled": true,
       "isShown": true,
@@ -188,18 +188,18 @@
       "styles": "",
       "type": "wms",
       "parents": [
-        "CACO/User-Added+Data",
-        "CACO/User-Added+Data/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0"
+        "CACO",
+        "CACO/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0"
       ]
     },
-    "CACO/User-Added+Data/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0": {
+    "CACO/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0": {
       "isOpen": true,
       "type": "wms-getCapabilities",
       "parents": [
-        "CACO/User-Added+Data"
+        "CACO"
       ]
     },
-    "CACO/User-Added+Data/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0/mu_MN_CACOp": {
+    "CACO/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0/mu_MN_CACOp": {
       "nowViewingIndex": 1,
       "isEnabled": true,
       "isShown": true,
@@ -211,18 +211,18 @@
       "styles": "",
       "type": "wms",
       "parents": [
-        "CACO/User-Added+Data",
-        "CACO/User-Added+Data/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0"
+        "CACO",
+        "CACO/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0"
       ]
     },
-    "CACO/User-Added+Data/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0": {
+    "CACO/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0": {
       "isOpen": true,
       "type": "wms-getCapabilities",
       "parents": [
-        "CACO/User-Added+Data"
+        "CACO"
       ]
     },
-    "CACO/User-Added+Data/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0/mu_UVVR_CACOp": {
+    "CACO/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0/mu_UVVR_CACOp": {
       "nowViewingIndex": 0,
       "isEnabled": true,
       "isShown": true,
@@ -234,8 +234,8 @@
       "styles": "",
       "type": "wms",
       "parents": [
-        "CACO/User-Added+Data",
-        "CACO/User-Added+Data/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0"
+        "CACO",
+        "CACO/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0"
       ]
     },
   "initialCamera": {
