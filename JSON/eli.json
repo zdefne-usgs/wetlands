@@ -1,36 +1,36 @@
 {
   "catalog": [
     {
-      "name": "Coastal wetlands of Fire Island National Seashore and Central Great South Bay, New York",
+      "name": "Coastal wetlands of eastern Long Island, New York",
       "type": "group",
-      "description": "This folder includes a data layer that defines the conceptual marsh units in the salt marsh complex of Fire Island National Seashore and central Great South Bay, and additional data layers to facilitate a multi-criteria assessment of state of the coastal salt marshes. \n\n https://www.sciencebase.gov/catalog/item/5ba4fba7e4b08583a5c9c7a0",
+      "description": "This folder includes a data layer that defines the conceptual marsh units of eastern Long Island, New York, and additional data layers to facilitate a multi-criteria assessment of state of the coastal salt marshes.\n\n  https://www.sciencebase.gov/catalog/item/5dd56511e4b0695797628ca6",
       "info": [],
       "isUserSupplied": true,
       "isPromoted": false,
       "isHidden": false,
       "forceProxy": false,
       "customProperties": {},
-      "id": "FIIS",
+      "id": "ELI",
       "shortReportSections": [],
       "isWaitingForDisclaimer": false,
       "hideSource": false,
-      "nameInCatalog": "Coastal wetlands of Fire Island National Seashore and Central Great South Bay, New York",
+      "nameInCatalog": "Coastal wetlands of eastern Long Island, New York",
       "isOpen": true,
       "items": [
         {
           "name": "Conceptual marsh units",
           "type": "wms",
-          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5bb77371e4b0fc368e8f364e?service=wms&request=getcapabilities&version=1.3.0",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ddd57c1e4b06957976c91fc?service=wms&request=getcapabilities&version=1.3.0",
           "styles": "",
-          "description": "Defne, Z., and Ganju, N.K., 2018, Conceptual marsh units for Fire Island National Seashore and central Great South Bay salt marsh complex, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P95U2MQ7.",
-          "layers": "CMU_FIISp",
+          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of eastern Long Island, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P91H426U.",
+          "layers": "CMU_ELIp",
           "info": [],
           "isUserSupplied": true,
           "isPromoted": false,
           "isHidden": false,
           "forceProxy": false,
           "customProperties": {},
-          "id": "FIIS/5bb77371e4b0fc368e8f364e?service=wms&request=getcapabilities&version=1.3.0",
+          "id": "ELI/5ddd57c1e4b06957976c91fc?service=wms&request=getcapabilities&version=1.3.0",
           "shortReportSections": [],
           "isWaitingForDisclaimer": false,
           "hideSource": false,
@@ -41,7 +41,7 @@
           "titleField": "title",
           "flatten": false,
           "parents": [
-            "FIIS"
+            "ELI"
           ],
           "featureInfoTemplate": {
             "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Total area (m2)</td><td>{{ATOT_M2}}</td></tr><tr><td>Selected area (m2)</td><td>{{APGN_M2}}</td></tr><tr><td>Type</td><td>{{TYP}}</td></tr><tr><td>FLG </td><td>{{FLG}}</td></tr></table>",
@@ -58,16 +58,16 @@
         {
           "name": "Elevation (m)",
           "type": "wms",
-          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5bb7833de4b0fc368e9030df?service=wms&request=getcapabilities&version=1.3.0",
-          "description": "Defne, Z., and Ganju, N.K., 2018, Elevation of marsh units in Fire Island National Seashore and central Great South Bay salt marsh complex, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P91K4FZP.",
-          "layers": "mu_elev_FIISp",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Defne, Z., and Ganju, N.K., 2019, Elevation of marsh units in Cape Cod National Seashore salt marsh complex, Massachusetts: U.S. Geological Survey data release, https://doi.org/10.5066/P90CQ2W7.",
+          "layers": "mu_elev_ELIp",
           "info": [],
           "isUserSupplied": true,
           "isPromoted": false,
           "isHidden": false,
           "forceProxy": false,
           "customProperties": {},
-          "id": "FIIS/5bb7833de4b0fc368e9030df?service=wms&request=getcapabilities&version=1.3.0",
+          "id": "ELI/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0",
           "shortReportSections": [],
           "isWaitingForDisclaimer": false,
           "hideSource": false,
@@ -78,7 +78,7 @@
           "titleField": "title",
           "flatten": false,
           "parents": [
-            "FIIS"
+            "ELI"
           ],
           "featureInfoTemplate": {
             "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Marsh unit  (m)</td><td>{{MU_ELEV}}</td></tr><tr><td>Vegetated part  (m)</td><td>{{VG_ELEV}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
@@ -95,16 +95,16 @@
         {
           "name": "Mean tidal range (m)",
           "type": "wms",
-          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5bb79be4e4b0fc368e91f56b?service=wms&request=getcapabilities&version=1.3.0",
-          "description": "Defne, Z., and Ganju, N.K., 2018, Mean tidal range in marsh units of Fire Island National Seashore and central Great South Bay salt marsh complex, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9R0HWPR.",
-          "layers": "mu_MN_FIISp",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Defne, Z., and Ganju, N.K., 2019, Mean tidal range in marsh units of Cape Cod National Seashore salt marsh complex, Massachusetts: U.S. Geological Survey data release, https://doi.org/10.5066/P9R7PPWB.",
+          "layers": "mu_MN_ELIp",
           "info": [],
           "isUserSupplied": true,
           "isPromoted": false,
           "isHidden": false,
           "forceProxy": false,
           "customProperties": {},
-          "id": "FIIS/5bb79be4e4b0fc368e91f56b?service=wms&request=getcapabilities&version=1.3.0",
+          "id": "ELI/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0",
           "shortReportSections": [],
           "isWaitingForDisclaimer": false,
           "hideSource": false,
@@ -115,7 +115,7 @@
           "titleField": "title",
           "flatten": false,
           "parents": [
-            "FIIS"
+            "ELI"
           ],
           "featureInfoTemplate": {
             "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Mean tidal range (m)</td><td>{{MN}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
@@ -129,16 +129,16 @@
         {
           "name": "UVVR",
           "type": "wms",
-          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5bb77b87e4b0fc368e8fb9f2?service=wms&request=getcapabilities&version=1.3.0",
-          "description": "Defne, Z., and Ganju, N.K., 2018, Unvegetated to vegetated marsh ratio in Fire Island National Seashore and central Great South Bay salt marsh complex, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9RHUSWY.",
-          "layers": "mu_UVVR_FIISp",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Defne, Z., and Ganju, N.K., 2019, Unvegetated to vegetated marsh ratio in Cape Cod National Seashore salt marsh complex, Massachusetts: U.S. Geological Survey data release, https://doi.org/10.5066/P99KU0C5.",
+          "layers": "mu_UVVR_ELIp",
           "info": [],
           "isUserSupplied": true,
           "isPromoted": false,
           "isHidden": false,
           "forceProxy": false,
           "customProperties": {},
-          "id": "FIIS/5bb77b87e4b0fc368e8fb9f2?service=wms&request=getcapabilities&version=1.3.0",
+          "id": "ELI/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0",
           "shortReportSections": [],
           "isWaitingForDisclaimer": false,
           "hideSource": false,
@@ -149,7 +149,7 @@
           "titleField": "title",
           "flatten": false,
           "parents": [
-            "FIIS"
+            "ELI"
           ],
           "featureInfoTemplate": {
             "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>UVVR</td><td>{{UVVR}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
@@ -169,120 +169,120 @@
     }
   ],
   "sharedCatalogMembers": {
-    "FIIS": {
+    "ELI": {
       "isOpen": true,
       "type": "group",
       "parents": []
     },
-    "FIIS/5bb77371e4b0fc368e8f364e?service=wms&request=getcapabilities&version=1.3.0": {
+    "ELI/5ddd57c1e4b06957976c91fc?service=wms&request=getcapabilities&version=1.3.0": {
       "isOpen": true,
       "type": "wms-getCapabilities",
       "parents": [
-        "FIIS"
+        "ELI"
       ]
     },
-    "FIIS/5bb77371e4b0fc368e8f364e?service=wms&request=getcapabilities&version=1.3.0/CMU_FIISp": {
+    "ELI/5ddd57c1e4b06957976c91fc?service=wms&request=getcapabilities&version=1.3.0/CMU_ELIp": {
       "nowViewingIndex": 3,
       "isEnabled": true,
       "isShown": true,
       "isLegendVisible": false,
       "useOwnClock": false,
-      "opacity": 0.2,
+      "opacity": 0.6,
       "keepOnTop": false,
       "splitDirection": 0,
       "styles": "",
       "type": "wms",
       "parents": [
-        "FIIS",
-        "FIIS/5bb77371e4b0fc368e8f364e?service=wms&request=getcapabilities&version=1.3.0"
+        "ELI",
+        "ELI/5ddd57c1e4b06957976c91fc?service=wms&request=getcapabilities&version=1.3.0"
       ]
     },
-    "FIIS/5bb7833de4b0fc368e9030df?service=wms&request=getcapabilities&version=1.3.0": {
+    "ELI/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0": {
       "isOpen": true,
       "type": "wms-getCapabilities",
       "parents": [
-        "FIIS"
+        "ELI"
       ]
     },
-    "FIIS/5bb7833de4b0fc368e9030df?service=wms&request=getcapabilities&version=1.3.0/mu_elev_FIISp": {
+    "ELI/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0/mu_elev_ELIp": {
       "nowViewingIndex": 2,
       "isEnabled": true,
       "isShown": true,
       "isLegendVisible": true,
       "useOwnClock": false,
-      "opacity": 1,
+      "opacity": 0.6,
       "keepOnTop": false,
       "splitDirection": 0,
       "styles": "",
       "type": "wms",
       "parents": [
-        "FIIS",
-        "FIIS/5bb7833de4b0fc368e9030df?service=wms&request=getcapabilities&version=1.3.0"
+        "ELI",
+        "ELI/5c62f56ae4b0fe48cb34c8ca?service=wms&request=getcapabilities&version=1.3.0"
       ]
     },
-    "FIIS/5bb77b87e4b0fc368e8fb9f2?service=wms&request=getcapabilities&version=1.3.0": {
+    "ELI/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0": {
       "isOpen": true,
       "type": "wms-getCapabilities",
       "parents": [
-        "FIIS"
+        "ELI"
       ]
     },
-    "FIIS/5bb77b87e4b0fc368e8fb9f2?service=wms&request=getcapabilities&version=1.3.0/mu_MN_FIISp": {
+    "ELI/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0/mu_MN_ELIp": {
       "nowViewingIndex": 1,
       "isEnabled": true,
       "isShown": true,
       "isLegendVisible": false,
       "useOwnClock": false,
-      "opacity": 1,
+      "opacity": 0.6,
       "keepOnTop": false,
       "splitDirection": 0,
       "styles": "",
       "type": "wms",
       "parents": [
-        "FIIS",
-        "FIIS/5bb77b87e4b0fc368e8fb9f2?service=wms&request=getcapabilities&version=1.3.0"
+        "ELI",
+        "ELI/5c62e48ce4b0fe48cb34c80c?service=wms&request=getcapabilities&version=1.3.0"
       ]
     },
-    "FIIS/5bb79be4e4b0fc368e91f56b?service=wms&request=getcapabilities&version=1.3.0": {
+    "ELI/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0": {
       "isOpen": true,
       "type": "wms-getCapabilities",
       "parents": [
-        "FIIS"
+        "ELI"
       ]
     },
-    "FIIS/5bb79be4e4b0fc368e91f56b?service=wms&request=getcapabilities&version=1.3.0/mu_UVVR_FIISp": {
+    "ELI/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0/mu_UVVR_ELIp": {
       "nowViewingIndex": 0,
       "isEnabled": true,
       "isShown": true,
       "isLegendVisible": false,
       "useOwnClock": false,
-      "opacity": 1,
+      "opacity": 0.6,
       "keepOnTop": false,
       "splitDirection": 0,
       "styles": "",
       "type": "wms",
       "parents": [
-        "FIIS",
-        "FIIS/5bb79be4e4b0fc368e91f56b?service=wms&request=getcapabilities&version=1.3.0"
+        "ELI",
+        "ELI/5c62f414e4b0fe48cb34c8b9?service=wms&request=getcapabilities&version=1.3.0"
       ]
-    }
-  },
-  "initialCamera": {
-    "west": -73.3496,
-    "east": -72.755,
-    "north": 40.5989,
-    "south": 40.822
-  },
-  "homeCamera": {
-    "west": -73.3496,
-    "east": -72.755,
-    "north": 40.5989,
-    "south": 40.822
-   },
+    },
+    "initialCamera": {
+      "west": -70.62423706054689,
+      "south": 41.597472596288696,
+      "east": -69.54620361328126,
+      "north": 42.07682027721137
+    },
+    "homeCamera": {
+      "west": -70.62423706054689,
+      "south": 41.597472596288696,
+      "east": -69.54620361328126,
+      "north": 42.07682027721137
+    },
   "baseMapName": "ESRI+Oceans",
-  "viewerMode": "2d",
-  "currentTime": {
-    "dayNumber": 2458733,
-    "secondsOfDay": 26099
+    "viewerMode": "2d",
+    "currentTime": {
+      "dayNumber": 2458802,
+      "secondsOfDay": 20255.754
+    }
   }
 }
