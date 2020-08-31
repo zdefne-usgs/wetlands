@@ -1,8 +1,9 @@
 {
   "catalog": [
     {
-      "name": "Coastal wetlands of Jamaica Bay to western Great South Bay salt marsh complex, New York",
-      "description": "The+group+for+data+that+was+added+by+the+user+via+the+Add+Data+panel.",
+      "name": "Coastal wetlands of Jamaica Bay to western Great South Bay, New York",
+      "description": "This folder includes a data layer that defines the conceptual marsh units in the salt marsh complex of Jamaica Bay to western Great South Bay, New York, and additional data layers to facilitate a multi-criteria assessment of state of the coastal salt marshes.\n\n  
+      https://www.sciencebase.gov/catalog/item/5cfe96fde4b0156ea5644fc5",
       "info": [],
       "isUserSupplied": true,
       "isPromoted": false,
@@ -13,7 +14,7 @@
       "shortReportSections": [],
       "isWaitingForDisclaimer": false,
       "hideSource": false,
-      "nameInCatalog": "Coastal wetlands of Jamaica Bay to western Great South Bay salt marsh complex, New York",
+      "nameInCatalog": "Coastal wetlands of Jamaica Bay to western Great South Bay, New York",
       "isOpen": true,
       "zoomOnEnable": true,
       "isEnabled": true,
