@@ -1,0 +1,17 @@
+U.S. Coastal Wetland Synthesis Geonarrative 
+
+Version History
+
+Version 1.1
+September 2020
+-Group study sites by state names in the Study Sites tab.
+-Add the following study sites to the geonarrative Study Sites tab:
+   -Jamaica Bay to western Great South Bay
+   -Eastern Long Island
+   -North shore Long Island
+   -Hudson Valley and New York City
+-Update the Study Sites map to include newly added sites.
+
+Version 1.0 
+March 2020
+-Original version.
