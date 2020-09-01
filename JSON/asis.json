@@ -3,7 +3,7 @@
     {
       "name": "Coastal wetlands of Assateague Island National Seashore and Chincoteague Bay, Maryland and Virginia",
       "type": "group",
-      "description": "This folder includes a data layer that defines the conceptual marsh units in the salt marsh complex of Assateague Island National Seashore and Chincoteague Bay and additional data layers to facilitate a multi-criteria assessment of state of the coastal salt marshes.\n\n  https://www.sciencebase.gov/catalog/item/5b916bcce4b0702d0e808a3a",
+      "description": "This folder includes a data layer that defines the conceptual marsh units in the salt marsh complex of Assateague Island National Seashore and Chincoteague Bay and additional data layers to facilitate a multi-criteria assessment of state of the coastal salt marshes.\n\n  https://www.sciencebase.gov/catalog/item/5b916bcce4b0702d0e808a3a \n\n <b>Flag (FLG) </b>\n\n The flag values are use to mark anomalous marsh units based on elevation, surface area, and absence of vegetation. FLG values indicate: \n\n (-1) no vegetated area in the marsh unit; \n\n (-10) marsh unit elevation higher than the 99.8 percentile; \n\n (-100) marsh unit elevation less than 0.2 percentile; \n\n (-200) missing elevation values; \n\n (-1000) marsh unit surface area less than 900 square meters; \n\n (-10000) mean tidal range of marsh unit is extrapolated; \n\n (0) no flag. \n\n Combination of negative values indicate combination of flags. For example, -1001 indicates no vegetated area and area less than 900 square meters.",
       "info": [],
       "isUserSupplied": true,
       "isPromoted": false,
