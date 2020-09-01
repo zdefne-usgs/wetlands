@@ -1,0 +1,402 @@
+{
+  "catalog": [
+    {
+      "name": "Coastal wetlands of Hudson Valley and New York City, New York",
+      "type": "group",
+      "description": "This folder includes a data layer that defines the conceptual marsh units of Hudson Valley and New York City, New York, and additional data layers to facilitate a multi-criteria assessment of state of the coastal salt marshes.\n\n  https://www.sciencebase.gov/catalog/item/5eda9f5282ce7e579c69c834",
+      "info": [],
+      "isUserSupplied": true,
+      "isPromoted": false,
+      "isHidden": false,
+      "forceProxy": false,
+      "customProperties": {},
+      "id": "NSLI",
+      "shortReportSections": [],
+      "isWaitingForDisclaimer": false,
+      "hideSource": false,
+      "nameInCatalog": "Coastal wetlands of Hudson Valley and New York City, New York",
+      "isOpen": true,
+      "items": [
+        {
+          "name": "Conceptual marsh units",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ede309682ce7e579c6e55f0?service=wms&request=getcapabilities&version=1.3.0",
+          "styles": "",
+          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of Hudson Valley and New York City, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9XV0JMJ.",
+          "layers": "CMU_NSLI",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "NSLI/5ede309682ce7e579c6e55f0?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "Conceptual marsh units",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "NSLI"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Total area (m2)</td><td>{{ATOT_M2}}</td></tr><tr><td>Selected area (m2)</td><td>{{APGN_M2}}</td></tr><tr><td>Type</td><td>{{TYP}}</td></tr><tr><td>FLG </td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "ATOT_M2": {
+                "maximumFractionDigits": 0
+              },
+              "APGN_M2": {
+                "maximumFractionDigits": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "Elevation (m)",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ede4b1782ce7e579c6e568c?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of Hudson Valley and New York City, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9XV0JMJ.",
+          "layers": "mu_elev_NSLI",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "NSLI/5ede4b1782ce7e579c6e568c?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "Elevation",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "NSLI"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Marsh unit  (m)</td><td>{{MU_ELEV}}</td></tr><tr><td>Vegetated part  (m)</td><td>{{VG_ELEV}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "MU_ELEV": {
+                "maximumFractionDigits": 2
+              },
+              "VG_ELEV": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
+        },
+        {
+          "name": "Mean tidal range (m)",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ede485a82ce7e579c6e5681?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of Hudson Valley and New York City, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9XV0JMJ.",
+          "layers": "mu_MN_NSLI",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "NSLI/5ede485a82ce7e579c6e5681?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "Mean tidal range",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "NSLI"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Mean tidal range (m)</td><td>{{MN}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "MN": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
+        },
+        {
+          "name": "UVVR",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ede3acc82ce7e579c6e5611?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of Hudson Valley and New York City, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9XV0JMJ.",
+          "layers": "mu_UVVR_NSLI",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "NSLI/5ede3acc82ce7e579c6e5611?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "UVVR",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "NSLI"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>UVVR</td><td>{{UVVR}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "UVVR": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
+        },
+        {
+          "name": "SCoRR",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ede5e6c82ce7e579c6e56b0?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of Hudson Valley and New York City, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9XV0JMJ.",
+          "layers": "mu_SCoRR_NSLI",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "NSLI/5ede5e6c82ce7e579c6e56b0?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "SCoRR",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "NSLI"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>SCoRR</td><td>{{MEAN}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "MEAN": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
+        },
+        {
+          "name": "Shoreline change rate (m/y)",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ede609882ce7e579c6e56bf?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of Hudson Valley and New York City, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9XV0JMJ.",
+          "layers": "mu_shoreline_NSLI",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "NSLI/5ede609882ce7e579c6e56bf?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "Shoreline change rate",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "NSLI"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Shoreline change rate (m/y)</td><td>{{MEAN_LRR}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "MEAN_LRR": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
+        },
+      ],
+      "preserveOrder": false,
+      "parents": [],
+      "zoomOnEnable": true,
+      "isEnabled": true,
+      "isShown": true
+    }
+  ],
+  "sharedCatalogMembers": {
+    "NSLI": {
+      "isOpen": true,
+      "type": "group",
+      "parents": []
+    },
+    "NSLI/5ede309682ce7e579c6e55f0?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "NSLI"
+      ]
+    },
+    "NSLI/5ede309682ce7e579c6e55f0?service=wms&request=getcapabilities&version=1.3.0/CMU_NSLI": {
+      "nowViewingIndex": 3,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": false,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "NSLI",
+        "NSLI/5ede309682ce7e579c6e55f0?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+    },
+    "NSLI/5ede4b1782ce7e579c6e568c?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "NSLI"
+      ]
+    },
+    "NSLI/5ede4b1782ce7e579c6e568c?service=wms&request=getcapabilities&version=1.3.0/mu_elev_NSLI": {
+      "nowViewingIndex": 2,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": true,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "NSLI",
+        "NSLI/5ede4b1782ce7e579c6e568c?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+    },
+    "NSLI/5ede485a82ce7e579c6e5681?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "NSLI"
+      ]
+    },
+    "NSLI/5ede485a82ce7e579c6e5681?service=wms&request=getcapabilities&version=1.3.0/mu_MN_NSLI": {
+      "nowViewingIndex": 1,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": false,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "NSLI",
+        "NSLI/5ede485a82ce7e579c6e5681?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+    },
+    "NSLI/5ede3acc82ce7e579c6e5611?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "NSLI"
+      ]
+    },
+    "NSLI/5ede3acc82ce7e579c6e5611?service=wms&request=getcapabilities&version=1.3.0/mu_UVVR_NSLI": {
+      "nowViewingIndex": 0,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": false,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "NSLI",
+        "NSLI/5ede3acc82ce7e579c6e5611?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+     },
+    "NSLI/5ede5e6c82ce7e579c6e56b0?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "NSLI"
+      ]
+    },
+    "NSLI/5ede5e6c82ce7e579c6e56b0?service=wms&request=getcapabilities&version=1.3.0/mu_SCoRR_NSLI": {
+      "nowViewingIndex": 0,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": false,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "NSLI",
+        "NSLI/5ede5e6c82ce7e579c6e56b0?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+     },
+    "NSLI/5ede609882ce7e579c6e56bf?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "NSLI"
+      ]
+    },
+    "NSLI/5ede609882ce7e579c6e56bf?service=wms&request=getcapabilities&version=1.3.0/mu_shoreline_NSLI": {
+      "nowViewingIndex": 0,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": false,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "NSLI",
+        "NSLI/5ede609882ce7e579c6e56bf?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+     },
+    },
+    "initialCamera": {
+      "west": -73.77388,
+      "south": 40.74362,
+      "east": -72.74529,
+      "north": 41.04000
+    },
+    "homeCamera": {
+      "west": -73.77388,
+      "south": 40.74362,
+      "east": -72.74529,
+      "north": 41.04000
+    },
+  "baseMapName": "ESRI+Oceans",
+    "viewerMode": "2d",
+    "currentTime": {
+      "dayNumber": 2458802,
+      "secondsOfDay": 20255.754
+  }
+}
