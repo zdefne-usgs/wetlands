@@ -228,7 +228,7 @@
         "Root+Group/User-Added+Data",
         "Root+Group/User-Added+Data/5d0abdc7e4b0e3d311601adb?service=wms&request=getcapabilities&version=1.3.0"
       ]
-    }
+    },
   },
   "initialCamera": {
     "west": -73.94760131835939,
