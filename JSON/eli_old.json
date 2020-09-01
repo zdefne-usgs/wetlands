@@ -1,0 +1,288 @@
+{
+  "catalog": [
+    {
+      "name": "Coastal wetlands of eastern Long Island, New York",
+      "type": "group",
+      "description": "This folder includes a data layer that defines the conceptual marsh units of eastern Long Island, New York, and additional data layers to facilitate a multi-criteria assessment of state of the coastal salt marshes.\n\n  https://www.sciencebase.gov/catalog/item/5dd56511e4b0695797628ca6",
+      "info": [],
+      "isUserSupplied": true,
+      "isPromoted": false,
+      "isHidden": false,
+      "forceProxy": false,
+      "customProperties": {},
+      "id": "ELI",
+      "shortReportSections": [],
+      "isWaitingForDisclaimer": false,
+      "hideSource": false,
+      "nameInCatalog": "Coastal wetlands of eastern Long Island, New York",
+      "isOpen": true,
+      "items": [
+        {
+          "name": "Conceptual marsh units",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ddd57c1e4b06957976c91fc?service=wms&request=getcapabilities&version=1.3.0",
+          "styles": "",
+          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of eastern Long Island, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P91H426U.",
+          "layers": "CMU_ELI",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "ELI/5ddd57c1e4b06957976c91fc?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "Conceptual marsh units",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "ELI"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Total area (m2)</td><td>{{ATOT_M2}}</td></tr><tr><td>Selected area (m2)</td><td>{{APGN_M2}}</td></tr><tr><td>Type</td><td>{{TYP}}</td></tr><tr><td>FLG </td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "ATOT_M2": {
+                "maximumFractionDigits": 0
+              },
+              "APGN_M2": {
+                "maximumFractionDigits": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "Elevation (m)",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ddd7472e4b04a30051ac165?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of eastern Long Island, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P91H426U.",
+          "layers": "mu_elev_ELI",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "ELI/5ddd7472e4b04a30051ac165?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "Elevation",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "ELI"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Marsh unit  (m)</td><td>{{MU_ELEV}}</td></tr><tr><td>Vegetated part  (m)</td><td>{{VG_ELEV}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "MU_ELEV": {
+                "maximumFractionDigits": 2
+              },
+              "VG_ELEV": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
+        },
+        {
+          "name": "Mean tidal range (m)",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ddd8803e4b04a30051ac1d6?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of eastern Long Island, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P91H426U.",
+          "layers": "mu_MN_ELI",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "ELI/5ddd8803e4b04a30051ac1d6?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "Mean tidal range",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "ELI"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Mean tidal range (m)</td><td>{{MN}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "MN": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
+        },
+        {
+          "name": "UVVR",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ddd6ee7e4b04a30051ac157?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of eastern Long Island, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P91H426U.",
+          "layers": "mu_UVVR_ELI",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "ELI/5ddd6ee7e4b04a30051ac157?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "UVVR",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "ELI"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>UVVR</td><td>{{UVVR}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "UVVR": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
+        }
+      ],
+      "preserveOrder": false,
+      "parents": [],
+      "zoomOnEnable": true,
+      "isEnabled": true,
+      "isShown": true
+    }
+  ],
+  "sharedCatalogMembers": {
+    "ELI": {
+      "isOpen": true,
+      "type": "group",
+      "parents": []
+    },
+    "ELI/5ddd57c1e4b06957976c91fc?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "ELI"
+      ]
+    },
+    "ELI/5ddd57c1e4b06957976c91fc?service=wms&request=getcapabilities&version=1.3.0/CMU_ELI": {
+      "nowViewingIndex": 3,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": false,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "ELI",
+        "ELI/5ddd57c1e4b06957976c91fc?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+    },
+    "ELI/5ddd7472e4b04a30051ac165?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "ELI"
+      ]
+    },
+    "ELI/5ddd7472e4b04a30051ac165?service=wms&request=getcapabilities&version=1.3.0/mu_elev_ELI": {
+      "nowViewingIndex": 2,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": true,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "ELI",
+        "ELI/5ddd7472e4b04a30051ac165?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+    },
+    "ELI/5ddd8803e4b04a30051ac1d6?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "ELI"
+      ]
+    },
+    "ELI/5ddd8803e4b04a30051ac1d6?service=wms&request=getcapabilities&version=1.3.0/mu_MN_ELI": {
+      "nowViewingIndex": 1,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": false,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "ELI",
+        "ELI/5ddd8803e4b04a30051ac1d6?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+    },
+    "ELI/5ddd6ee7e4b04a30051ac157?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "ELI"
+      ]
+    },
+    "ELI/5ddd6ee7e4b04a30051ac157?service=wms&request=getcapabilities&version=1.3.0/mu_UVVR_ELI": {
+      "nowViewingIndex": 0,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": false,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "ELI",
+        "ELI/5ddd6ee7e4b04a30051ac157?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+     },
+    },
+    "initialCamera": {
+      "west": -73.00415,
+      "south": 40.83563,
+      "east": -71.54846,
+      "north": 41.29019
+    },
+    "homeCamera": {
+      "west": -73.00415,
+      "south": 40.83563,
+      "east": -71.54846,
+      "north": 41.29019
+    },
+  "baseMapName": "ESRI+Oceans",
+    "viewerMode": "2d",
+    "currentTime": {
+      "dayNumber": 2458802,
+      "secondsOfDay": 20255.754
+  }
+}
