@@ -83,10 +83,10 @@
           "featureInfoTemplate": {
             "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Marsh unit  (m)</td><td>{{mu_ELEV}}</td></tr><tr><td>Vegetated part  (m)</td><td>{{vg_ELEV}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
             "formats": {
-              "MU_ELEV": {
+              "mu_ELEV": {
                 "maximumFractionDigits": 2
               },
-              "VG_ELEV": {
+              "vg_ELEV": {
                 "maximumFractionDigits": 2
               }
             }
