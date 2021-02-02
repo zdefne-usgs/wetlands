@@ -81,7 +81,7 @@
             "ASIS"
           ],
           "featureInfoTemplate": {
-            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Marsh unit  (m)</td><td>{{MU_ELEV}}</td></tr><tr><td>Vegetated part  (m)</td><td>{{VG_ELEV}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Marsh unit  (m)</td><td>{{mu_ELEV}}</td></tr><tr><td>Vegetated part  (m)</td><td>{{vg_ELEV}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
             "formats": {
               "MU_ELEV": {
                 "maximumFractionDigits": 2
