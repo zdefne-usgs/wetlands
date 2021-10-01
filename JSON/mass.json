@@ -23,7 +23,7 @@
           "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/60f992fcd34e3ccd82fe3fbf?service=wms&request=getcapabilities&version=1.3.0",
           "styles": "",
           "description": "Ackerman, K.V., Defne, Z., and Ganju, N.K., 2021, Geospatial Characterization of Salt Marshes for Massachusetts: U.S. Geological Survey data release, https://doi.org/10.5066/P97E086F.",
-          "layers": "CMU_MA",
+          "layers": "sb:CMU_MA",
           "info": [],
           "isUserSupplied": true,
           "isPromoted": false,
@@ -267,7 +267,7 @@
       ]
 
     "initialCamera": {
-      "west": -74.29504,
+      "west": -74.29504,X
       "south": 40.45113,
       "east": -73.61664,
       "north": 41.49418
