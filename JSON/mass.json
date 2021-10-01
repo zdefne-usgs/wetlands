@@ -159,75 +159,7 @@
               }
             }
           }
-        },
-        {
-          "name": "SCoRR",
-          "type": "wms",
-          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ede5e6c82ce7e579c6e56b0?service=wms&request=getcapabilities&version=1.3.0",
-          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of Hudson Valley and New York City, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9XV0JMJ.",
-          "layers": "mu_SCoRR_MA",
-          "info": [],
-          "isUserSupplied": true,
-          "isPromoted": false,
-          "isHidden": false,
-          "forceProxy": false,
-          "customProperties": {},
-          "id": "MA/5ede5e6c82ce7e579c6e56b0?service=wms&request=getcapabilities&version=1.3.0",
-          "shortReportSections": [],
-          "isWaitingForDisclaimer": false,
-          "hideSource": false,
-          "nameInCatalog": "SCoRR",
-          "isOpen": true,
-          "items": [],
-          "preserveOrder": false,
-          "titleField": "title",
-          "flatten": false,
-          "parents": [
-            "MA"
-          ],
-          "featureInfoTemplate": {
-            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>SCoRR</td><td>{{MEAN}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
-            "formats": {
-              "MEAN": {
-                "maximumFractionDigits": 2
               }
-            }
-          }
-        },
-        {
-          "name": "Shoreline change rate (m/y)",
-          "type": "wms",
-          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/5ede609882ce7e579c6e56bf?service=wms&request=getcapabilities&version=1.3.0",
-          "description": "Welk, R.J., Defne, Z., and Ganju, N.K., 2020, Coastal wetlands of Hudson Valley and New York City, New York: U.S. Geological Survey data release, https://doi.org/10.5066/P9XV0JMJ.",
-          "layers": "mu_shoreline_MA",
-          "info": [],
-          "isUserSupplied": true,
-          "isPromoted": false,
-          "isHidden": false,
-          "forceProxy": false,
-          "customProperties": {},
-          "id": "MA/5ede609882ce7e579c6e56bf?service=wms&request=getcapabilities&version=1.3.0",
-          "shortReportSections": [],
-          "isWaitingForDisclaimer": false,
-          "hideSource": false,
-          "nameInCatalog": "Shoreline change rate",
-          "isOpen": true,
-          "items": [],
-          "preserveOrder": false,
-          "titleField": "title",
-          "flatten": false,
-          "parents": [
-            "MA"
-          ],
-          "featureInfoTemplate": {
-            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Shoreline change rate (m/y)</td><td>{{MEAN_LRR}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
-            "formats": {
-              "MEAN_LRR": {
-                "maximumFractionDigits": 2
-              }
-            }
-          }
-        },
       ],
       "preserveOrder": false,
       "parents": [],
@@ -333,54 +265,7 @@
         "MA",
         "MA/60f9934dd34e3ccd82fe3fd2?service=wms&request=getcapabilities&version=1.3.0"
       ]
-     },
-    "MA/5ede5e6c82ce7e579c6e56b0?service=wms&request=getcapabilities&version=1.3.0": {
-      "isOpen": true,
-      "type": "wms-getCapabilities",
-      "parents": [
-        "MA"
-      ]
-    },
-    "MA/5ede5e6c82ce7e579c6e56b0?service=wms&request=getcapabilities&version=1.3.0/mu_SCoRR_MA": {
-      "nowViewingIndex": 0,
-      "isEnabled": true,
-      "isShown": true,
-      "isLegendVisible": false,
-      "useOwnClock": false,
-      "opacity": 0.6,
-      "keepOnTop": false,
-      "splitDirection": 0,
-      "styles": "",
-      "type": "wms",
-      "parents": [
-        "MA",
-        "MA/5ede5e6c82ce7e579c6e56b0?service=wms&request=getcapabilities&version=1.3.0"
-      ]
-     },
-    "MA/5ede609882ce7e579c6e56bf?service=wms&request=getcapabilities&version=1.3.0": {
-      "isOpen": true,
-      "type": "wms-getCapabilities",
-      "parents": [
-        "MA"
-      ]
-    },
-    "MA/5ede609882ce7e579c6e56bf?service=wms&request=getcapabilities&version=1.3.0/mu_shoreline_MA": {
-      "nowViewingIndex": 0,
-      "isEnabled": true,
-      "isShown": true,
-      "isLegendVisible": false,
-      "useOwnClock": false,
-      "opacity": 0.6,
-      "keepOnTop": false,
-      "splitDirection": 0,
-      "styles": "",
-      "type": "wms",
-      "parents": [
-        "MA",
-        "MA/5ede609882ce7e579c6e56bf?service=wms&request=getcapabilities&version=1.3.0"
-      ]
-     },
-    },
+
     "initialCamera": {
       "west": -74.29504,
       "south": 40.45113,
