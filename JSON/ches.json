@@ -19,7 +19,6 @@
       "items": [
         {
           "name": "Conceptual marsh units",
-          "type": "wms",
           "url": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/ma_czm_footprint/FeatureServer/0",
           "styles": "",
           "description": "Ackerman, K.V., Defne, Z., and Ganju, N.K., 2021, Geospatial Characterization of Salt Marshes for Chesapeake Bay: U.S. Geological Survey data release, https://doi.org/10.5066/P97E086F.",
