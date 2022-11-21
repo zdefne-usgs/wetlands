@@ -1,0 +1,288 @@
+{
+  "catalog": [
+    {
+      "name": "Salt marshes of Chesapeake Bay",
+      "type": "group",
+      "description": "This folder includes a data layer that defines the conceptual marsh units of salt marshes of Chesapeake Bay, and additional data layers to facilitate a multi-criteria assessment of state of the coastal salt marshes.\n\n  https://www.sciencebase.gov/catalog/item/60f79c4dd34e9143a4ba4e04 \n\n <b>Flag (FLG) </b>\n\n The flag values are use to mark anomalous marsh units based on elevation, surface area, and absence of vegetation. FLG values indicate: \n\n (-1) no vegetated area in the marsh unit; \n\n (-10) marsh unit elevation higher than the 99.8 percentile; \n\n (-100) marsh unit elevation less than 0.2 percentile; \n\n (-200) missing elevation values; \n\n (-1000) marsh unit surface area less than 900 square meters; \n\n (-10000) mean tidal range of marsh unit is extrapolated; \n\n (0) no flag. \n\n Combination of negative values indicate combination of flags. For example, -1001 indicates no vegetated area and area less than 900 square meters.",
+      "info": [],
+      "isUserSupplied": true,
+      "isPromoted": false,
+      "isHidden": false,
+      "forceProxy": false,
+      "customProperties": {},
+      "id": "MA",
+      "shortReportSections": [],
+      "isWaitingForDisclaimer": false,
+      "hideSource": false,
+      "nameInCatalog": "Salt marshes of Chesapeake Bay",
+      "isOpen": true,
+      "items": [
+        {
+          "name": "Conceptual marsh units",
+          "type": "wms",
+          "url": "https://services.arcgis.com/v01gqwM5QqNysAAi/arcgis/rest/services/ma_czm_footprint/FeatureServer/0",
+          "styles": "",
+          "description": "Ackerman, K.V., Defne, Z., and Ganju, N.K., 2021, Geospatial Characterization of Salt Marshes for Chesapeake Bay: U.S. Geological Survey data release, https://doi.org/10.5066/P97E086F.",
+          "layers": "sb:CMU_MA",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "MA/60f992fcd34e3ccd82fe3fbf?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "Conceptual marsh units",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "MA"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Total area (m2)</td><td>{{ATOT_M2}}</td></tr><tr><td>Selected area (m2)</td><td>{{APGN_M2}}</td></tr><tr><td>Type</td><td>{{TYP}}</td></tr><tr><td>FLG </td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "ATOT_M2": {
+                "maximumFractionDigits": 0
+              },
+              "APGN_M2": {
+                "maximumFractionDigits": 0
+              }
+            }
+          }
+        },
+        {
+          "name": "Elevation (m)",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/60f9932ed34e3ccd82fe3fcb?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Ackerman, K.V., Defne, Z., and Ganju, N.K., 2021, Geospatial Characterization of Salt Marshes for Chesapeake Bay: U.S. Geological Survey data release, https://doi.org/10.5066/P97E086F.",
+          "layers": "sb:mu_Elev_MA",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "MA/60f9932ed34e3ccd82fe3fcb?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "Elevation",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "MA"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Marsh unit  (m)</td><td>{{MU_ELEV}}</td></tr><tr><td>Vegetated part  (m)</td><td>{{VG_ELEV}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "MU_ELEV": {
+                "maximumFractionDigits": 2
+              },
+              "VG_ELEV": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
+        },
+        {
+          "name": "Mean tidal range (m)",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/60f99371d34e3ccd82fe3fd7?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Ackerman, K.V., Defne, Z., and Ganju, N.K., 2021, Geospatial Characterization of Salt Marshes for Chesapeake Bay: U.S. Geological Survey data release, https://doi.org/10.5066/P97E086F.",
+          "layers": "mu_MN_MA",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "MA/60f99371d34e3ccd82fe3fd7?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "Mean tidal range",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "MA"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>Mean tidal range (m)</td><td>{{MN}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "MN": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
+        },
+        {
+          "name": "UVVR",
+          "type": "wms",
+          "url": "https://www.sciencebase.gov/catalogMaps/mapping/ows/60f9934dd34e3ccd82fe3fd2?service=wms&request=getcapabilities&version=1.3.0",
+          "description": "Ackerman, K.V., Defne, Z., and Ganju, N.K., 2021, Geospatial Characterization of Salt Marshes for Chesapeake Bay: U.S. Geological Survey data release, https://doi.org/10.5066/P97E086F.",
+          "layers": "mu_UVVR_MA",
+          "info": [],
+          "isUserSupplied": true,
+          "isPromoted": false,
+          "isHidden": false,
+          "forceProxy": false,
+          "customProperties": {},
+          "id": "MA/60f9934dd34e3ccd82fe3fd2?service=wms&request=getcapabilities&version=1.3.0",
+          "shortReportSections": [],
+          "isWaitingForDisclaimer": false,
+          "hideSource": false,
+          "nameInCatalog": "UVVR",
+          "isOpen": true,
+          "items": [],
+          "preserveOrder": false,
+          "titleField": "title",
+          "flatten": false,
+          "parents": [
+            "MA"
+          ],
+          "featureInfoTemplate": {
+            "template": "<table style=width:100%><tr><td>FID_CMU</td><td>{{FID_CMU}}</td></tr><tr><td>UVVR</td><td>{{UVVR}}</td></tr><tr><td>FLG</td><td>{{FLG}}</td></tr></table>",
+            "formats": {
+              "UVVR": {
+                "maximumFractionDigits": 2
+              }
+            }
+          }
+              }
+      ],
+      "preserveOrder": false,
+      "parents": [],
+      "zoomOnEnable": true,
+      "isEnabled": true,
+      "isShown": true
+    }
+  ],
+  "sharedCatalogMembers": {
+    "MA": {
+      "isOpen": true,
+      "type": "group",
+      "parents": []
+    },
+    "MA/60f992fcd34e3ccd82fe3fbf?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "MA"
+      ]
+    },
+    "MA/60f992fcd34e3ccd82fe3fbf?service=wms&request=getcapabilities&version=1.3.0/CMU_MA": {
+      "nowViewingIndex": 3,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": false,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "MA",
+        "MA/60f992fcd34e3ccd82fe3fbf?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+    },
+    "MA/60f9932ed34e3ccd82fe3fcb?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "MA"
+      ]
+    },
+    "MA/60f9932ed34e3ccd82fe3fcb?service=wms&request=getcapabilities&version=1.3.0/mu_Elev_MA": {
+      "nowViewingIndex": 2,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": true,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "MA",
+        "MA/60f9932ed34e3ccd82fe3fcb?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+    },
+    "MA/60f99371d34e3ccd82fe3fd7?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "MA"
+      ]
+    },
+    "MA/60f99371d34e3ccd82fe3fd7?service=wms&request=getcapabilities&version=1.3.0/mu_MN_MA": {
+      "nowViewingIndex": 1,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": false,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "MA",
+        "MA/60f99371d34e3ccd82fe3fd7?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+    },
+    "MA/60f9934dd34e3ccd82fe3fd2?service=wms&request=getcapabilities&version=1.3.0": {
+      "isOpen": true,
+      "type": "wms-getCapabilities",
+      "parents": [
+        "MA"
+      ]
+    },
+    "MA/60f9934dd34e3ccd82fe3fd2?service=wms&request=getcapabilities&version=1.3.0/mu_UVVR_MA": {
+      "nowViewingIndex": 0,
+      "isEnabled": true,
+      "isShown": true,
+      "isLegendVisible": false,
+      "useOwnClock": false,
+      "opacity": 0.6,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "styles": "",
+      "type": "wms",
+      "parents": [
+        "MA",
+        "MA/60f9934dd34e3ccd82fe3fd2?service=wms&request=getcapabilities&version=1.3.0"
+      ]
+    }
+  },
+    "initialCamera": {
+      "west": -71.30676,
+      "south": 40.45113,
+      "east": -69.87305,
+      "north": 42.89810
+    },
+    "homeCamera": {
+      "west": -71.30676,
+      "south": 40.45113,
+      "east": -69.87305,
+      "north": 42.89810
+    },
+    "baseMapName": "ESRI+Oceans",
+    "viewerMode": "2d",
+    "currentTime": {
+      "dayNumber": 2458802,
+      "secondsOfDay": 20255.754
+  }
+}
